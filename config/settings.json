@@ -1,0 +1,54 @@
+{
+  "Default_Browser": "",
+  "Speech_Recognition": {
+    "Energy_Threshold": 300,
+    "Dynamic_Energy_Threshold": true,
+    "Pause_Threshold": 0.5,
+    "Operation_Timeout": "None",
+    "Ambient_Noise_Duration": 0.2,
+    "Listen_Timeout": 5,
+    "Phrase_Time_Limit": 15,
+    "Language": "en-IN",
+    "Calibration_Interval": 700
+  },
+  "Floating_Icon": {
+    "Icon_Path": "resources/icon.png",
+    "Icon_Size": 70,
+    "Animation_FPS": 67,
+    "Always_On_Top": true,
+    "Window_Transparency": true,
+    "Opacity": 1.0,
+    "Rotation_Animation": {
+      "Max_Rotation_Speed": 30,
+      "Rotation_Acceleration": 0.5,
+      "Rotation_Deceleration": 0.8,
+      "Min_Rotation_Cycles": 2
+    },
+    "Glow_Effect": {
+      "Brightness_Intensity": 2.0,
+      "Contrast_Intensity": 0.1,
+      "Color_Intensity": 0.05
+    },
+    "Pulse_Animation": {
+      "Pulse_Speed": 5.0,
+      "Pulse_Variation_Speed": 0.7,
+      "Pulse_Variation_Intensity": 0.1
+    },
+    "Shake_Animation": {
+      "Shake_Intensity": 5,
+      "Shake_Duration": 0.5,
+      "Shake_Frequency": 25
+    },
+    "Position": {
+      "Offset_X": 0,
+      "Offset_Y": 0
+    },
+    "Drag_And_Click": {
+      "Drag_Threshold": 5,
+      "Click_Timeout": 200
+    }
+  },
+  "Application": {
+    "Icon_Path": "test_icon_path.ico"
+  }
+}

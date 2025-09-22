@@ -1,0 +1,64 @@
+{
+  "Search YouTube Music": {
+    "Action": "browser",
+    "Command": "https://music.youtube.com/search?q={query}",
+    "Phrases": [
+      "play"
+    ]
+  },
+  "Search YouTube Videos": {
+    "Action": "browser",
+    "Command": "https://www.youtube.com/results?search_query={query}",
+    "Phrases": [
+      "open youtube",
+      "youtube",
+      "youtube for",
+      "watch"
+    ]
+  },
+  "Search Google": {
+    "Action": "browser",
+    "Command": "https://www.google.com/search?q={query}",
+    "Phrases": [
+      "search google",
+      "google search",
+      "search for",
+      "google",
+      "search"
+    ]
+  },
+  "Notepad": {
+    "Action": "command",
+    "Command": "notepad.exe",
+    "Phrases": [
+      "notepad",
+      "open notepad",
+      "launch notepad"
+    ]
+  },
+  "Task Manager": {
+    "Action": "keys",
+    "Command": "ctrl+shift+esc",
+    "Phrases": [
+      "task manager",
+      "open task manager",
+      "ctrl shift esc"
+    ]
+  },
+  "Show Phrases": {
+    "Action": "internal",
+    "Command": "show_phrases",
+    "Phrases": [
+      "show phrases",
+      "list phrases",
+      "available phrases"
+    ]
+  },
+  "Open Settings": {
+    "Action": "internal",
+    "Command": "show_settings",
+    "Phrases": [
+      "assistant settings"
+    ]
+  }
+}
