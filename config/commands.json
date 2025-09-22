@@ -21,6 +21,7 @@
     "Command": "https://www.google.com/search?q={query}",
     "Phrases": [
       "search google",
+      "g",
       "google search",
       "search for",
       "google",
@@ -61,4 +62,5 @@
       "assistant settings"
     ]
   }
+
 }
